@@ -1,0 +1,169 @@
+
+/* Layout Stylesheet */ 
+
+
+#outer {
+ text-align:left;
+ margin:auto;
+ }
+
+#hdr {
+ height:40px;
+ color: black;
+ }
+
+#bar {
+ background-image:url("/stylesheets/bg.gif");
+ height:25px;
+ color: #333333;
+ border:solid #000000;	
+ border-width:1px 0 1px 0;
+ }
+
+#bodyblock {
+ background: white;
+ font-family: Times New Roman, Arial, Verdana, sans-serif;
+ font-size:12px;
+ color: black;
+ padding:0;
+ }
+
+#l-col {
+ float:left;
+ background:#dcdcdc;
+ width:145px;
+ }
+
+#cont {
+ width:495px;
+ background:#ffffff;
+ border:solid #000000;	
+ border-width:0 0 0 1px;
+ text-align:left;
+ }
+
+#ftr {
+ background-image:url("/stylesheets/bg.gif");
+ background-color:#C3D9FF;
+ height:25px;
+ color: black;
+ border:solid black;
+ border-width:1px 0 1px 0;
+ margin:0;
+ }
+
+
+body {
+ /*background-image:url("/stylesheets/bg1.gif");*/
+background-color: #FFFFFF;
+font-family: Verdana,Times New Roman, Arial, Verdana, sans-serif;
+font-size:14px;
+color: #00008B;
+}
+                                                                                                                                                                                                                                                           
+a { font-family: Verdana,Times New Roman, Arial, sans-serif; font-size:10px; color: blue; text-decoration: underline}
+
+A:link {font-family: Verdana,Times New Roman, Arial,  sans-serif;COLOR: #0033CC; TEXT-DECORATION: underline; font-size:12px}
+
+A:visited {font-family: Verdana,Times New Roman, Arial,  sans-serif;COLOR: #0033CC; TEXT-DECORATION: underline; font-size:12px}
+
+A:hover {font-family: Verdana,Times New Roman, Arial,  sans-serif;COLOR: #0033CC; TEXT-DECORATION: underline; font-size:12px}
+                                                                                                                                                                                                                                                           
+                                                                                                                                                                                                                                                           
+h1 { font-family: Verdana,Times New Roman; font-size:18px;  color: #A52A2A }
+h2 { font-family: Verdana,Times New Roman; font-size:16px;  color: #A52A2A }
+                                                                                                                                                                                                                                                           
+hr{ color:brown; background-color:tan; width:90%; height:2px; }
+                                                                                                                                                                                                                                                           
+table.ss {
+font-family: Verdana,Times New Roman;
+font-size:14px;
+color: #000000;
+border: grey solid 0px;
+border-bottom: grey solid 0px;
+border-right: grey solid 0px;
+background-color: white;
+margin-top: 10px;
+margin-right: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+}
+                                                                                                                                                                                                                                                           
+.note {
+font-family: Verdana,Arial, Verdana, sans-serif;
+color: purple;
+font-weight: bold;
+}
+                                                                                                                                                                                                                                                           
+.content {
+  padding: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.d-name a:link {
+  color:         darkgreen;
+}
+                                                                                                                                                                                                                                                           
+.detail-even {
+ background-color: #E1D3DF;
+ color:black;
+}
+.detail-odd {
+  background-color: #D8E1D1;
+ color:black;
+}
+
+.detail-changed { 
+  background-color: #FFaaaa;
+ color:black;
+}
+
+.detail-separate { 
+  background-color: grey;
+}
+                                                                                                                                                                                                                                                           
+table.ss tr{
+	background-color:#f5f5f5;
+	font-size:100%;
+}
+
+table.ss th {
+/* background-image:url("/stylesheets/bg1.gif");*/
+background:#A9C5EB; color:black; 
+font-family:verdana;  padding:1px}
+
+table.ss td{background-color:#f5f5f5;}
+
+table.ss table td{background-color:#f5f5f5;}
+
+
+label{ font-weight:bold;}
+input, select, textarea {
+	font-family:Verdana,lucida,arial,sans-serif;
+	font-size:1em;
+	color:black;
+	background-color: #fffff0;
+	border: 1px solid #9CA896;
+	margin-bottom:3px;
+}
+
+.dyn-source {
+  display: none;
+  background: #FFE;
+  color: #A52A2A;
+  border: 1px dotted black;
+  margin: 0.5em 2em 0.5em 2em;
+  padding: 0.5em;
+}
+.messages {
+  background: #FFE;
+  color: #A52A2A;
+  border: 1px dotted black;
+  margin: 0.5em 2em 0.5em 2em;
+  padding: 0.5em;
+}
+
